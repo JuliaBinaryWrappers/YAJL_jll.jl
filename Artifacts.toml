@@ -1,113 +1,143 @@
 [[YAJL]]
-arch = "i686"
-git-tree-sha1 = "24e3ba0b6961db4a048dbee199851bca1d497e69"
-libc = "musl"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "dc2714e22dcc12f7eaf636f9cec72d829b96dfa137991568c9a0051ba54c6901"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.i686-linux-musl.tar.gz"
-[[YAJL]]
 arch = "aarch64"
-git-tree-sha1 = "334a929e5c143683ce607d18f73b16d7e7b04b74"
-libc = "musl"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "0091106a602ed13b0cf58babd4331a20cfa0898c037366ea9a358f8b338f6a00"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.aarch64-linux-musl.tar.gz"
-[[YAJL]]
-arch = "i686"
-git-tree-sha1 = "fa10aed797427a37a23f3c0f62736014ec0f6be4"
-os = "windows"
-
-    [[YAJL.download]]
-    sha256 = "2d4f8028cce14a129831d3b0729131d78328f72bbfc2161e0d9f4e3217e4e065"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.i686-w64-mingw32.tar.gz"
-[[YAJL]]
-arch = "x86_64"
-git-tree-sha1 = "ffa6d5c8f6d1422af3beca14ca03e226de642e5d"
-os = "windows"
-
-    [[YAJL.download]]
-    sha256 = "b8f46f3f43a2010d6c7c8293af8173a1a6cd9be47a9790039e9ccf86ed55b93c"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.x86_64-w64-mingw32.tar.gz"
-[[YAJL]]
-arch = "armv7l"
-git-tree-sha1 = "6363adcbebd0bd318d344bb3e08f5382e00d740f"
-libc = "glibc"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "89f7ce8c6926691a7c76009e3af6a24425ce46eb1bf2fbb04a3a1a2c2ebb34c3"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[YAJL]]
-arch = "armv7l"
-git-tree-sha1 = "c49fbbf19df3a380f9fc0e8d49a0b62575cd3e74"
-libc = "musl"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "32dccfbd8a4f60e78c23d29bc5c0ca8729d3b74388f0742b3458f06e8b1c7dbd"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.armv7l-linux-musleabihf.tar.gz"
-[[YAJL]]
-arch = "i686"
-git-tree-sha1 = "6879205d5408884857fc4f72ad1d83a1fd4e16d0"
-libc = "glibc"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "f34ede4eaac9bc541cdf11a130a26488fd24caf0ff808b04ca197649bfd6fab0"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.i686-linux-gnu.tar.gz"
-[[YAJL]]
-arch = "x86_64"
-git-tree-sha1 = "590605ba50600f2ee3ccffe0d22576154c0ff0d4"
-libc = "glibc"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "91da605f858504319d1c8bcfda22164d1d79ac0a99a7a790cae7b69403721f95"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.x86_64-linux-gnu.tar.gz"
-[[YAJL]]
-arch = "powerpc64le"
-git-tree-sha1 = "138f1da614e69c6e839611df08756a3ee8e9344d"
-libc = "glibc"
-os = "linux"
-
-    [[YAJL.download]]
-    sha256 = "747bd90cd0a54407dd530423785e66e3c612f05da66196a90fc7208f4d500b98"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.powerpc64le-linux-gnu.tar.gz"
-[[YAJL]]
-arch = "x86_64"
-git-tree-sha1 = "f54099e9cb96bc76ede2790cf123d3474d5d0849"
+git-tree-sha1 = "71ec786b58ff17adcdca12c1e37d98028d7325f3"
 os = "macos"
 
     [[YAJL.download]]
-    sha256 = "b0a6f4b9db937de5b911fb62adf37bda2db668497e4e8a9519736d96edcff46a"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "06d22ea523a161b895f9c2e0878aef24a90a93a7568460b9a31859dcee7fdfee"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.aarch64-apple-darwin.tar.gz"
 [[YAJL]]
 arch = "aarch64"
-git-tree-sha1 = "e24a5103a4809892a44a65e09c21e5838d34d698"
+git-tree-sha1 = "2d425ccdebe35c59cd49ff7ae94f2d39f340b428"
 libc = "glibc"
 os = "linux"
 
     [[YAJL.download]]
-    sha256 = "55fecba26d2809b388449d76b7e8bd3f27017892c4c9ded4081e9ad442c18a68"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "1e4f364e47eb3a97577e5a657c3c8045cf4b2d184dc5d47a694e306494989ce4"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.aarch64-linux-gnu.tar.gz"
 [[YAJL]]
-arch = "x86_64"
-git-tree-sha1 = "78ce61b3aa2b804ea07279b82e636fb9f9cebeee"
-os = "freebsd"
-
-    [[YAJL.download]]
-    sha256 = "7e0ba43ceb030783341e24882c5a326f9d90a3d0b60403cbf6c6bc4499ec70ea"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[YAJL]]
-arch = "x86_64"
-git-tree-sha1 = "9a21ae06e70622c958a341fb3627609c8ea0f76a"
+arch = "aarch64"
+git-tree-sha1 = "e32fb82ca157334b755fc11a2da989de5efedab2"
 libc = "musl"
 os = "linux"
 
     [[YAJL.download]]
-    sha256 = "d9bb328392181b75d8ef98c8b591e12d47d25a30ae40ed9de37778d04f2c5bd9"
-    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.0+0/YAJL.v2.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "0a0c60a78bd0d4d0b8d4357c0ef93cdd90ee73d4ecb49c4c837cf40b964f23ea"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.aarch64-linux-musl.tar.gz"
+[[YAJL]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d74f397c258bb839683af05d518930fb9fd7966f"
+libc = "glibc"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "325512844d0db002880d97911cf64f2813b0d52a2403853939759f82cd5bfbfc"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.armv6l-linux-gnueabihf.tar.gz"
+[[YAJL]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9f7e6d17896e82a9358ff0fbbfb5b2b72dd269fa"
+libc = "musl"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "072d1fa706aec398504e503d4c1bb80f72f7f805a0607ea5e2ffaf6eb94a1f7d"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.armv6l-linux-musleabihf.tar.gz"
+[[YAJL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f8f587fe46f79e3383c04a982f79353c727906d4"
+libc = "glibc"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "97a7433da68532c2f8096fd39ccf947c63f8d9d3c957f7ade1d768cdd6dfa3d1"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.armv7l-linux-gnueabihf.tar.gz"
+[[YAJL]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "297faef87302b529faabfc8430846b1eca1f6cba"
+libc = "musl"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "58a963873787d93c80ef1120ee8eb0c946d3a800007af544c3c8eda639ca0080"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.armv7l-linux-musleabihf.tar.gz"
+[[YAJL]]
+arch = "i686"
+git-tree-sha1 = "9ffe53d09388c7ba5882cc706f8ff18dcf1214b2"
+libc = "glibc"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "85e5ce518fbd98c0527895ada183d05f000b3e3f3c953818f582d715a6d8be1d"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.i686-linux-gnu.tar.gz"
+[[YAJL]]
+arch = "i686"
+git-tree-sha1 = "f839f7caa84f7f6de3380888a6a6fd6fb09e1c89"
+libc = "musl"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "56b67065c7be11494cdcc09c1aa7895e2ce8d5e2e2585d79f6dad967fa4a5481"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.i686-linux-musl.tar.gz"
+[[YAJL]]
+arch = "i686"
+git-tree-sha1 = "621840c51ca10e141409f87232ebf2e86da23aef"
+os = "windows"
+
+    [[YAJL.download]]
+    sha256 = "0d186e32c3006bcfd87dcf8b2f3cb17598ffc2ed665234d5b63789e9afb73bb9"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.i686-w64-mingw32.tar.gz"
+[[YAJL]]
+arch = "powerpc64le"
+git-tree-sha1 = "5efd865c052b83c15cee18177af5e817d9889f74"
+libc = "glibc"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "ac7b0b1e9a46f7e2da6b0130b804e14ba8619db86e418a602fa6898e5194c3c7"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.powerpc64le-linux-gnu.tar.gz"
+[[YAJL]]
+arch = "x86_64"
+git-tree-sha1 = "b8f3a425230bae46f3316bed0405ff33e53c4ae1"
+os = "macos"
+
+    [[YAJL.download]]
+    sha256 = "692c3701cf6f7a91e1820b77a52872e843be5f0ed062420a7a833cc34ab69e3b"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.x86_64-apple-darwin.tar.gz"
+[[YAJL]]
+arch = "x86_64"
+git-tree-sha1 = "70139997726c9e01c5d8678ef077150a06f29dea"
+libc = "glibc"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "94fcb4b05788257fc6efa0be820e0c10acff8054117613ecf65a2a8f358d7921"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.x86_64-linux-gnu.tar.gz"
+[[YAJL]]
+arch = "x86_64"
+git-tree-sha1 = "a66218ab098c29bfbfa14706e6e632d434ad7033"
+libc = "musl"
+os = "linux"
+
+    [[YAJL.download]]
+    sha256 = "f750c8b8e487535d0e4141b4b3ff2f10c7994212afe4f7c27fe05c6dbc7cf52f"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.x86_64-linux-musl.tar.gz"
+[[YAJL]]
+arch = "x86_64"
+git-tree-sha1 = "cf87d4c2f466f400ef1750b096fecb0f8fdc20c6"
+os = "freebsd"
+
+    [[YAJL.download]]
+    sha256 = "521128082f2a468eff71eca821157dea98baf49a80a605053b26cb8be618605a"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.x86_64-unknown-freebsd.tar.gz"
+[[YAJL]]
+arch = "x86_64"
+git-tree-sha1 = "d7f073193d1ceeb5f927cdad549e2bec781cc0c3"
+os = "windows"
+
+    [[YAJL.download]]
+    sha256 = "9165df33c34bff4cc485127e39f3afe226a3316af67f4011a8d671fc39e73d69"
+    url = "https://github.com/JuliaBinaryWrappers/YAJL_jll.jl/releases/download/YAJL-v2.1.1+0/YAJL.v2.1.1.x86_64-w64-mingw32.tar.gz"
